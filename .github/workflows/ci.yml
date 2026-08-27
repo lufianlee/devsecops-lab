@@ -38,4 +38,4 @@ jobs:
           role-to-assume: ${{ vars.AWS_DEPLOY_ROLE_ARN }}
           aws-region: ap-northeast-2   # 필수 입력
       - run: aws sts get-caller-identity   # 누구로 전환됐는지 확인
-00
+
